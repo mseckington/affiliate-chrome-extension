@@ -1,0 +1,48 @@
+body {
+	font-family: Helvetica, "Georgia", sans-serif;
+	font-size: 16px;
+	padding: 17px 13px 17px 17px;
+	margin: 0px;
+	background-color: #eeeeee;
+	width: 253px;
+}
+
+input:focus,
+  select:focus,
+  textarea:focus,
+  button:focus,
+  a:focus {
+      outline: none;
+  }
+
+h1 {
+	padding-bottom: 7px;
+	margin: 0;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#affiliate_link {
+	overflow: auto;
+}
+
+#page_url {
+  width: 200px;
+	padding: 7px;
+	font-size: 14px;
+	cursor: pointer;
+	float: left;
+}
+
+#clipboard {
+	float: left;
+	padding-left: 10px;
+	cursor: pointer;
+	position: relative;
+	top: 3px;
+}
+
+.note {
+	font-size: 11px;
+	padding-top: 7px;
+}
