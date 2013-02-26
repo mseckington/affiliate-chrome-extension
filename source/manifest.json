@@ -1,8 +1,8 @@
 {
 	"name": "Affiliate Link Creator",
   	"manifest_version": 2,  	
-  	"version": "0.5",
-  	"description": "Easily grab your affiliate link from any Amazon page",
+  	"version": "1.1",
+  	"description": "Easily grab your affiliate link from any Amazon, Bookdepository or Threadless page",
 
 	"background": { 
 		"scripts": [
@@ -13,7 +13,12 @@
 	"content_scripts": [{ 
 		"matches": [
 			"http://www.amazon.com/*",
-			"http://www.amazon.co.uk/*"
+			"http://www.amazon.co.uk/*",
+			"http://www.amazon.ca/*",
+			"http://www.amazon.fr/*",
+			"http://www.threadless.com/*",
+			"http://www.bookdepository.co.uk/*",
+			"http://www.bookdepository.com/*"
 		], 
 		"js": ["scripts/contentscript.js"] 
 	}],

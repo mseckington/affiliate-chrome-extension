@@ -19,7 +19,7 @@ h1 {
 	padding-bottom: 7px;
 	margin: 0;
 	font-size: 15px;
-	font-weight: bold;
+	font-weight: bold;	
 }
 
 #affiliate_link {
@@ -45,4 +45,8 @@ h1 {
 .note {
 	font-size: 11px;
 	padding-top: 7px;
+}
+
+#options_link {
+		color: #f08c26;
 }
