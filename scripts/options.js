@@ -27,8 +27,8 @@ var showTags = function() {
 }
 
 showSavedNotice = function() {
-  $("#toggle_notice").text("Options (saved)");
+  $("#save").text("Saving...");
   return setTimeout((function() {
-    return $("#toggle_notice").text("Options");
+    return $("#save").text("Save settings");
   }), 1000);
 };
