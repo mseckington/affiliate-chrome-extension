@@ -1,0 +1,113 @@
+body {
+	font-family: Helvetica, "Georgia", sans-serif;
+	font-size: 16px;
+	background-color: #888;
+	background-image: url("/images/noise.png");
+}
+
+#panel {
+	background-color: #fff;
+	margin: 50px auto 0px auto;
+  border: 1px solid #aaa;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px #333333;
+  width: 500px;
+  overflow: auto;
+  padding-bottom: 20px;
+}
+
+h1 {
+  border-radius: 10px 10px 0px 0px;
+  background-color: #FAF9F7;
+  margin: 0px;
+  font-weight: bold;
+  font-size: 28px;
+  text-shadow: white 0px 1px 0px;
+  color: rgba(0,0,0,0.8);
+  padding: 20px 10px;
+  border-bottom: 1px solid #ccc;
+  background-image: url("/images/icon48.png");
+  background-repeat: no-repeat;
+  background-position: 15px 12px;
+  padding-left: 75px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  padding: 5px 20px 0px 20px;
+  font-size: 16px;
+}
+
+h3 {
+  padding: 0px 20px;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.region_settings {
+  padding: 10px 20px;
+}
+
+.affiliate_label {
+	font-weight: bold;
+	padding-left: 30px;
+	width: 175px;
+	display: inline-block;
+}
+
+input {
+	width: 150px;
+}
+
+#save {
+	float: right;
+	margin-top: 10px;
+	margin-right:35px;
+	padding: 5px 15px;
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#f08b26;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+#save:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}
+
+#save:active {
+	position:relative;
+	top:1px;
+}
+
+#credits {
+	width: 500px;
+  overflow: auto;
+	margin: 10px auto 0px auto;
+  font-weight: bold;
+  font-size: 12px;	
+}
+
+#credits a {
+	color: #444;
+	text-decoration:none;
+}
+
+#credits a:hover {
+	color: #fff;
+}

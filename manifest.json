@@ -1,7 +1,7 @@
 {
 	"name": "Affiliate Link Creator",
   	"manifest_version": 2,  	
-  	"version": "1.1",
+  	"version": "1.2",
   	"description": "Easily grab your affiliate link from any Amazon, Bookdepository or Threadless page",
 
 	"background": { 
